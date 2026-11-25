@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DSH-delete",
+    "description": "Adds \"Delete session\" to archived sessions: confirming removes that session's data from disk for good."
+  }
+}

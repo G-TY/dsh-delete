@@ -1,0 +1,56 @@
+{
+  "name": "dsh-delete",
+  "version": "0.4.1",
+  "type": "module",
+  "description": "Delete archived DSH sessions for real: a red 「删除对话」 item at the bottom of the session menu, with a DSH-styled confirm dialog.",
+  "license": "MIT",
+  "icon": "./icon.svg",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "session",
+    "delete"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G-TY/dsh-delete.git"
+  },
+  "homepage": "https://github.com/G-TY/dsh-delete#readme",
+  "bugs": {
+    "url": "https://github.com/G-TY/dsh-delete/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale",
+    "docs",
+    "test",
+    "assets",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-api-workspace-controller",
+        "@deepseek-ai/dsh-client-ui-context-menu"
+      ]
+    }
+  }
+}

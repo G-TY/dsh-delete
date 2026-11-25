@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="DSH-delete">
+  <rect width="64" height="64" rx="14" fill="#2b3a80"/>
+  <g fill="none" stroke="#ffffff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 23h24"/>
+    <path d="M27 23v-4h10v4"/>
+    <path d="M24 23l1.6 21h12.8L40 23"/>
+    <path d="M30 30v9M34 30v9"/>
+  </g>
+</svg>
